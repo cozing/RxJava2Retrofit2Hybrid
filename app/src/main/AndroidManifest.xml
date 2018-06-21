@@ -1,0 +1,73 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cozing.rxjava2retrofit2hybrid">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".rxjava2.Rxjava2Activity"/>
+
+        <activity android:name=".rxjava2retrofit2.RxJava2Retrofit2HybridActivity"/>
+        <activity android:name=".rxjava2.creationoperator.CreateOperatorActivity"/>
+        <activity android:name=".rxjava2.creationoperator.JustOperatorActivity"/>
+        <activity android:name=".rxjava2.creationoperator.FromArrayOperatorActivity"/>
+        <activity android:name=".rxjava2.creationoperator.FromIterableOperatorActivity"/>
+        <activity android:name=".rxjava2.creationoperator.DeferActivity"/>
+        <activity android:name=".rxjava2.creationoperator.TimerActivity"/>
+        <activity android:name=".rxjava2.creationoperator.IntervalActivity"/>
+        <activity android:name=".rxjava2.creationoperator.IntervalRangeActivity"/>
+        <activity android:name=".rxjava2.creationoperator.RangeActivity"/>
+        <activity android:name=".rxjava2.creationoperator.RangeLongActivity"/>
+        <activity android:name=".rxjava2.conversionoperator.MapActivity"/>
+        <activity android:name=".rxjava2.conversionoperator.FlatMapActivity"/>
+        <activity android:name=".rxjava2.conversionoperator.ConcatMapActivity"/>
+        <activity android:name=".rxjava2.conversionoperator.BufferActivity"/>
+        <activity android:name=".rxjava2.combinationoperator.ConcatAndConcatArrayActivity"/>
+        <activity android:name=".rxjava2.combinationoperator.MergeAndMergeArrayActivity"/>
+        <activity android:name=".rxjava2.combinationoperator.ConcatDelayErrorAndMergeDelayError"/>
+        <activity android:name=".rxjava2.combinationoperator.ZipActivity"/>
+        <activity android:name=".rxjava2.combinationoperator.CombineLatestActivity"/>
+        <activity android:name=".rxjava2.combinationoperator.CombineLatestDelayErrorActivity"/>
+        <activity android:name=".rxjava2.combinationoperator.ReduceActivity"/>
+        <activity android:name=".rxjava2.combinationoperator.CollectActivity"/>
+        <activity android:name=".rxjava2.combinationoperator.StartWithAndStartWithArrayActivity"/>
+        <activity android:name=".rxjava2.combinationoperator.CountActivity"/>
+        <activity android:name=".rxjava2.functionoperator.SubscribeActivity"/>
+        <activity android:name=".rxjava2.functionoperator.SubscribeOnActivity"/>
+        <activity android:name=".rxjava2.functionoperator.ObserveOnActivity"/>
+        <activity android:name=".rxjava2.functionoperator.DelayActivity"/>
+        <activity android:name=".rxjava2.functionoperator.DoActivity"/>
+        <activity android:name=".rxjava2.functionoperator.OnErrorReturnActivity"/>
+        <activity android:name=".rxjava2.functionoperator.OnErrorResumeNextActivity"/>
+        <activity android:name=".rxjava2.functionoperator.OnExceptionResumeNextActivity"/>
+        <activity android:name=".rxjava2.functionoperator.RetryActivity"/>
+        <activity android:name=".rxjava2.functionoperator.RetryUntilActivity"/>
+        <activity android:name=".rxjava2.functionoperator.RetryWhenActivity"/>
+        <activity android:name=".rxjava2.functionoperator.RepeatActivity"/>
+        <activity android:name=".rxjava2.functionoperator.RepeatWhenActivity"/>
+        <activity android:name=".rxjava2.filtrationoperator.FilterActivity"/>
+        <activity android:name=".rxjava2.filtrationoperator.OfTypeActivity"/>
+        <activity android:name=".rxjava2.filtrationoperator.SkipAndSkipLastActivity"/>
+        <activity android:name=".rxjava2.filtrationoperator.DistinctAndDistinctUtilChangeActivity"/>
+        <activity android:name=".rxjava2.filtrationoperator.TakeActivity"/>
+        <activity android:name=".rxjava2.filtrationoperator.TakeLastActivity"/>
+        <activity android:name=".rxjava2.filtrationoperator.ThrottleFirstAndThrottleLastActivity"/>
+        <activity android:name=".rxjava2.filtrationoperator.SampleActivity"/>
+        <activity android:name=".rxjava2.filtrationoperator.ThrottleWithTimeoutAndDebounceActivity"/>
+        <activity android:name=".rxjava2.filtrationoperator.FirstElementAndLastElementActivity"/>
+        <activity android:name=".rxjava2.filtrationoperator.ElementAtActivity"/>
+        <activity android:name=".rxjava2.filtrationoperator.ElementAtOrErrorActivity"/>
+    </application>
+</manifest>
